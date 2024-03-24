@@ -1,4 +1,4 @@
-# Learning React with Code With Harry 🔥
+# Learning React  Code With Harry 🔥
 
 Welcome to the Code with Harry YouTube channel, where you can learn React.js from scratch! This README file provides an overview of the resources available and how to get started with your React.js learning journey.
 
@@ -20,7 +20,7 @@ Code with Harry is a YouTube channel dedicated to providing high-quality program
 
 ## Getting Started
 
-1. **Visit the Code with Harry YouTube Channel**: Head over to the [Code with Harry YouTube channel](https://www.youtube.com/c/CodeWithHarry) to access the React.js tutorials.
+1. **Visit the Code with Harry YouTube Channel**: Head over to the [Code with Harry YouTube channel](https://www.youtube.com/@CodeWithHarry) to access the React.js tutorials.
    
 2. **Explore the React.js Playlist**: Look for the React.js playlist on the channel, which organizes all the tutorials in a structured manner, making it easy to follow along from start to finish.
 
