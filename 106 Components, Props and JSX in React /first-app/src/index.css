@@ -1,0 +1,12 @@
+ :root {
+ 
+  font-family:'Courier New', Courier, monospace;
+} 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.cards{
+  display: flex;
+}
