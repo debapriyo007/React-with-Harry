@@ -5,7 +5,7 @@ You have to use an API and display the data in a card format under container. Al
 API :- https://jsonplaceholder.typicode.com/posts
 
 
-# Solution 🚀
+## Solution 🚀
 
 ```java
 import { useState , useEffect} from 'react'
