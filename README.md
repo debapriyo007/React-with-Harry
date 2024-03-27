@@ -6,6 +6,8 @@ Welcome to the Code with Harry YouTube channel, where you can learn React.js fro
 
 Code with Harry is a YouTube channel dedicated to providing high-quality programming tutorials, with a focus on web development technologies. Led by Harry, the channel offers comprehensive tutorials on various programming languages and frameworks, including React.js.
 
+![Image Description](https://i.ytimg.com/vi/kJEsTjH5mVg/maxresdefault.jpg)
+
 ## What You'll Learn
 
 - Understanding the fundamentals of React.js
