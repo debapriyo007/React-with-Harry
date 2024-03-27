@@ -1,8 +1,43 @@
-# React + Vite
+# Solution 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```java
+import { useState , useEffect} from 'react'
+import './index.css'
+function App() {
+  const [card, setcard] = useState([])
 
-Currently, two official plugins are available:
+  const fetchData = async()=>{
+    let a = await fetch("https://jsonplaceholder.typicode.com/posts")
+    let data = await a.json()
+    setcard(data)
+    console.log(data)
+  }
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  useEffect(() => {
+   fetchData()
+  }, [])
+  
+
+  return (
+    <>
+      
+      <div className="container">
+        {card.map((card)=>{
+          return(
+            <div className="card" key={card.id}>
+              <h1>{card.title}</h1>
+              <p>{card.body}</p>
+              <span>By UserId : {card.userId}</span>
+          </div>
+          )
+        })}
+        
+      </div>
+       
+    </>
+  )
+}
+
+export default App
+
+```
