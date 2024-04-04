@@ -1,0 +1,5 @@
+Here we learn ?
+
+1. Next.js is similar to React.js but here we get "File base Routing"
+   means whatever route we have to create just create a directory and 
+   write the logic
