@@ -1,0 +1,5 @@
+What we Learn ?
+
+1.Learn about Script Tag.
+2.Learn about Link Tag (This tag is help us not to reload the page.)
+3. Run google ads that should be write on `Layout.js` file.
